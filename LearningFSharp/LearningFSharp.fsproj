@@ -3,16 +3,28 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <TargetFramework>netcoreapp3.1</TargetFramework>
+        <AssemblyName>LearningFSharp</AssemblyName>
+        <RootNamespace>LearningFSharp</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
+        <Compile Include="Funtores.fs" />
         <Compile Include="PeriodoDeTempo.fs" />
         <Compile Include="FuncoesDeEscrita.fs" />
         <Compile Include="FuncoesDeEscritaUtilizandoOutrosModulos.fs" />
         <Compile Include="FuncoesDeAltaOrdem.fs" />
         <Compile Include="PipesEComposicaoDeFuncoes.fs" />
         <Compile Include="Tipos.fs" />
+        <Compile Include="Classes.fs" />
+        <Compile Include="Wrappers.fs" />
+        <Compile Include="Arquivo.fs" />
+        <Compile Include="Operadores.fs" />
+        <Compile Include="Listas.fs" />
         <Compile Include="Program.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
     </ItemGroup>
 
 </Project>

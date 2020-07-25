@@ -2,6 +2,8 @@
 
 open System
 open PeriodoDeTempo
+open Operadores
+open Funtores
 
 [<EntryPoint>]
 let main argv =
@@ -40,13 +42,26 @@ let main argv =
     escreverNumeroEParOuImpar 21
 
     FuncoesDeAltaOrdem.imprimirListaDeNumeros 2 [ 1; 2; 3; 5; 6 ]
-    
+
     // Pipes
-    let result = PipesEComposicaoDeFuncoes.dobrarValoresDeUmaListaComOperador()
+    let result = PipesEComposicaoDeFuncoes.dobrarValoresDeUmaListaComOperador ()
     printfn "O resultado é: %i." result.Length
-    
+
     // Composição de função e Currying
     let resultado = PipesEComposicaoDeFuncoes.somaDepoisMultiplicaUsandoOOperador 1 1 <| 2
     printfn "O resultado é: %i." resultado
     
+    let multiplicaESoma valor1 valor2 somador =
+        (valor1 * valor2) + somador
+
+    let testeApply = Sucesso multiplicaESoma <*> Sucesso 3 <*> Sucesso 10 <*> Sucesso 4
+    
+    let valorFunctorAplicativo() =
+        let valor = testeApply
+        match valor with
+        | Sucesso v -> printfn "%i" v
+        | Falha erro -> printfn "Erro" 
+
+    valorFunctorAplicativo()
+
     0
