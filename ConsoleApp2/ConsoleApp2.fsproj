@@ -11,6 +11,7 @@
         <Compile Include="FuncoesDeEscritaUtilizandoOutrosModulos.fs" />
         <Compile Include="FuncoesDeAltaOrdem.fs" />
         <Compile Include="PipesEComposicaoDeFuncoes.fs" />
+        <Compile Include="Tipos.fs" />
         <Compile Include="Program.fs" />
     </ItemGroup>
 
