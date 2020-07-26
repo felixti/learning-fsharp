@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LearningFSharp", "LearningFSharp\LearningFSharp.fsproj", "{628CFC02-8E94-4F38-93DA-59AE713D1431}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsharpForFunAndProfit", "FsharpForFunAndProfit\FsharpForFunAndProfit.fsproj", "{78B39FB0-ED25-47D6-A03B-D435E57471F7}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "LearningFsharpForWeb", "LearningFsharpForWeb\LearningFsharpForWeb.fsproj", "{1B55FA29-1DC6-4E86-967B-556412B37E43}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{628CFC02-8E94-4F38-93DA-59AE713D1431}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{628CFC02-8E94-4F38-93DA-59AE713D1431}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{628CFC02-8E94-4F38-93DA-59AE713D1431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78B39FB0-ED25-47D6-A03B-D435E57471F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78B39FB0-ED25-47D6-A03B-D435E57471F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78B39FB0-ED25-47D6-A03B-D435E57471F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78B39FB0-ED25-47D6-A03B-D435E57471F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B55FA29-1DC6-4E86-967B-556412B37E43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B55FA29-1DC6-4E86-967B-556412B37E43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B55FA29-1DC6-4E86-967B-556412B37E43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B55FA29-1DC6-4E86-967B-556412B37E43}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
